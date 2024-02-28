@@ -3,13 +3,13 @@ import './App.css'
 
 function App() {
   const [inputValue, setInputValue] = useState("Mayesha's Live Text Update!")
-  const [count, setCount] = useState(0)
 
 
   return (
     <>
       <div>
-        <h1>{count}</h1>
+        <h1 className='text-gray-400 font-bold'>Live Text Update App</h1>
+        <br />
         <form onSubmit={(e) => {
           e.preventDefault()
           setInputValue(e.target.textField.value)
@@ -17,18 +17,18 @@ function App() {
         }}>
           <input name='textField' className='py-2 px-10 rounded-full border-b border-purple-400' type="text" placeholder='enter text...'
           />
-
+          <br />
+          <br />
           <button
             type='submit'
-            className='rounded-full text-purple-400'
+            className='rounded-full bg-purple-400 bg-opacity-25 text-purple-400 border-b border-b-purple-400 border-r-purple-400'
           >
-            Update</button>
+            Update
+          </button>
         </form>
-        <br />
-        <br />
 
         <br />
-        <br />
+
         <div className='text-2xl font-medium text-purple-400'>
           {inputValue}
         </div>
