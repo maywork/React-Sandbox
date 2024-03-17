@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 
 function Card({ data }) {
   return (
-    <div className='relative w-60 h-72 rounded-[20px] bg-zinc-900/90 text-purple-200 p-5 overflow-hidden'>
+    <div className='relative flex-shrink-0 w-60 h-72 rounded-[20px] bg-zinc-900/90 text-purple-200 p-5 overflow-hidden'>
       <FaRegFileAlt />
       <p className='text-sm leading-tight mt-5 font-medium'>{data.desc}</p>
       <footer className='absolute bottom-0 w-full left-0'>
