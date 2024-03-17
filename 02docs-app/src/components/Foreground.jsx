@@ -24,7 +24,7 @@ function Foreground() {
       desc: 'This is the third card. Lorem ipsum dolor sit amet consectetur adipisicing.',
       filesize: '3.9mb',
       close: false,
-      tag: { isOpen: true, tagTitle: 'Download Now', tagColor: 'green' }
+      tag: { isOpen: true, tagTitle: 'Upload', tagColor: 'purple' }
     }
   ]
 
