@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Card from './Card'
 
 function Foreground() {
@@ -6,6 +6,8 @@ function Foreground() {
   // const data = [
   //   icon, desc, filesize, closeOrDownload, tagDetails
   // ]
+
+  const ref = useRef(null);
 
   const data = [
     {
@@ -30,9 +32,9 @@ function Foreground() {
 
 
   return (
-    <div className='fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-4'>
+    <div ref={ref} className='fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-4'>
       {data.map((item, index) => (
-        <Card data={item} />
+        <Card data={item} reference={ref} />
       ))}
     </div>
   )
