@@ -10,7 +10,19 @@ function Foreground() {
   const data = [
     {
       desc: 'This is the first card. Lorem ipsum dolor sit amet consectetur adipisicing.',
-      filesize: '0.9mb',
+      filesize: '1.9mb',
+      close: false,
+      tag: { isOpen: false, tagTitle: 'Download Now', tagColor: 'green' }
+    },
+    {
+      desc: 'This is the second card. Lorem ipsum dolor sit amet consectetur adipisicing.',
+      filesize: '2.0mb',
+      close: false,
+      tag: { isOpen: false, tagTitle: 'Download Now', tagColor: 'green' }
+    },
+    {
+      desc: 'This is the third card. Lorem ipsum dolor sit amet consectetur adipisicing.',
+      filesize: '3.9mb',
       close: false,
       tag: { isOpen: false, tagTitle: 'Download Now', tagColor: 'green' }
     }
