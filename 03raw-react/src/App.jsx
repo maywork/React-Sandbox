@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Products from './Products'
+
 
 function App() {
+  var [count, setCount] = useState(10);
   return (
     <>
-      <div className='w-full h-screen bg-zinc-900'>
-        <div className='w-44 h-32 rounded-xl bg-red-600 p-3 text-white'>
-          <h3>hello kaise ho</h3>
-        </div>
+      <div className='w-full h-screen bg-zinc-900 text-white'>
+        <h1>{count}</h1>
+        <button onClick={() => setCount(prevCounter => prevCounter + 1)} className='px-3 py-1 bg-green-500 rounded-md text-xs'>click</button>
+        <Products naam='item price' data={{ age: 25, name: 'May' }} />
       </div>
     </>
   )
