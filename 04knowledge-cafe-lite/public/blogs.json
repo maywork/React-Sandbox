@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "cover_img": "./images/2.png",
+    "cover_img": "./images/2.jpg",
     "title": "Artificial Intelligence Revolution: Transforming Industries with AI",
     "author": "John Doe",
     "author_img": "https://example.com/authors/john_doe.jpg",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "cover_img": "./images/4.jpg",
+    "cover_img": "./images/4.png",
     "title": "Cryptocurrency Chronicles: Unraveling the Mysteries of Blockchain",
     "author": "Michael Johnson",
     "author_img": "https://example.com/authors/michael_johnson.jpg",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "cover_img": "./images/2.jpg",
+    "cover_img": "./images/5.jpg",
     "title": "Quantum Computing Odyssey: Journey into the Quantum Realm",
     "author": "Sarah Williams",
     "author_img": "https://example.com/authors/sarah_williams.jpg",
