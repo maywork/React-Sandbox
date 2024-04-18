@@ -4,7 +4,7 @@
     "cover_img": "./images/1.jpg",
     "title": "The Cybersecurity Conundrum: Navigating the Digital Threat Landscape",
     "author": "Alice Smith",
-    "author_img": "https://example.com/authors/alice_smith.jpg",
+    "author_img": "./images/boy1.png",
     "posted_date": "April 18,2024",
     "reading_time": "15 mins",
     "hashtags": ["cybersecurity", "digital", "threats"]
@@ -14,7 +14,7 @@
     "cover_img": "./images/2.jpg",
     "title": "Artificial Intelligence Revolution: Transforming Industries with AI",
     "author": "John Doe",
-    "author_img": "https://example.com/authors/john_doe.jpg",
+    "author_img": "./images/girl1.jpg",
     "posted_date": "April 17, 2024",
     "reading_time": "20 mins",
     "hashtags": ["AI", "machinelearning", "innovation"]
@@ -24,7 +24,7 @@
     "cover_img": "./images/3.png",
     "title": "The Future of Robotics: Exploring the Boundaries of Automation",
     "author": "Emily Brown",
-    "author_img": "https://example.com/authors/emily_brown.jpg",
+    "author_img": "./images/boy2.png",
     "posted_date": "April 16th, 2024",
     "reading_time": "18 mins",
     "hashtags": ["robotics", "automation", "futuretech"]
@@ -34,7 +34,7 @@
     "cover_img": "./images/4.png",
     "title": "Cryptocurrency Chronicles: Unraveling the Mysteries of Blockchain",
     "author": "Michael Johnson",
-    "author_img": "https://example.com/authors/michael_johnson.jpg",
+    "author_img": "./images/girl2.jpg",
     "posted_date": "April 24, 2024",
     "reading_time": "25 mins",
     "hashtags": ["cryptocurrency", "blockchain", "digitalcurrency"]
@@ -44,7 +44,7 @@
     "cover_img": "./images/5.jpg",
     "title": "Quantum Computing Odyssey: Journey into the Quantum Realm",
     "author": "Sarah Williams",
-    "author_img": "https://example.com/authors/sarah_williams.jpg",
+    "author_img": "./images/profile.png",
     "posted_date": "May 11, 2024",
     "reading_time": "22 mins",
     "hashtags": ["quantumcomputing", "quantum", "computerscience"]
