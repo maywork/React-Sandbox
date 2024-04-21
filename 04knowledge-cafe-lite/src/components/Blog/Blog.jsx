@@ -30,7 +30,9 @@ function Blog({ blog, handleAddToBookmark, handleMarkAsRead }) {
           hashtags.map((hash, idx) => <span key={idx}><a>#{hash}</a></span>)
         }
       </p>
-      <button className="bg-purple-500 text-white p-2 rounded-md font-semibold ">Mark As Read</button>
+      <button
+        onClick={() => handleMarkAsRead(reading_time)}
+        className="bg-purple-500 text-white p-2 rounded-md font-semibold ">Mark As Read</button>
     </div>
   )
 }

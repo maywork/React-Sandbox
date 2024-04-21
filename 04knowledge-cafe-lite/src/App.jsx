@@ -14,7 +14,9 @@ function App() {
   }
 
   const handleMarkAsRead = time => {
-    console.log('marking as read', time);
+    console.log(time);
+    const getTime = time.substring(0, 2)
+    setReadingTime(readingTime + Number(getTime))
   }
 
   return (
@@ -23,7 +25,7 @@ function App() {
         <Header />
         <div className='md:flex'>
           <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead} />
-          <Bookmarks bookmarks={bookmarks} />
+          <Bookmarks bookmarks={bookmarks} readingTime={readingTime} />
         </div>
       </div>
     </>
