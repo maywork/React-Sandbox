@@ -1,12 +1,14 @@
-import React from 'react'
+import { useState } from "react";
+import { BsBookmarks } from "react-icons/bs";
 
-function Blog({ blog }) {
+function Blog({ blog, handleAddToBookmark, isBookmarked }) {
   const { title, cover_img, author, author_img, posted_date, reading_time, hashtags } = blog;
 
+
   return (
-    <div>
-      <img src={cover_img} alt="" />
-      <div className='flex justify-between'>
+    <div className='mb-20'>
+      <img className='w-10/12' src={cover_img} alt="" />
+      <div className='flex justify-between m-4'>
         <div className='flex gap-4'>
           <img className='w-16' src={author_img} alt="" />
           <div>
@@ -16,6 +18,11 @@ function Blog({ blog }) {
         </div>
         <div>
           <span>{reading_time} read</span>
+          <button
+            className='ml-2 text-gray-600'
+            onClick={() => handleAddToBookmark(blog)}
+            disabled={isBookmarked}
+          ><BsBookmarks /></button>
         </div>
       </div>
       <h2 className="text-3xl">{title}</h2>
