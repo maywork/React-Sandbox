@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsBookmarks } from "react-icons/bs";
 
-function Blog({ blog, handleAddToBookmark, isBookmarked }) {
+function Blog({ blog, handleAddToBookmark }) {
   const { title, cover_img, author, author_img, posted_date, reading_time, hashtags } = blog;
 
 
@@ -21,7 +21,6 @@ function Blog({ blog, handleAddToBookmark, isBookmarked }) {
           <button
             className='ml-2 text-gray-600'
             onClick={() => handleAddToBookmark(blog)}
-            disabled={isBookmarked}
           ><BsBookmarks /></button>
         </div>
       </div>

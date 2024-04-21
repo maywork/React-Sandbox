@@ -7,12 +7,9 @@ import Header from './components/Header/Header'
 function App() {
   const [bookmarks, setBookmarks] = useState([])
 
-  const [isBookmarked, setIsBookmarked] = useState(false);
-
   const handleAddToBookmark = blog => {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
-    setIsBookmarked(true);
   }
 
   return (
@@ -20,7 +17,7 @@ function App() {
       <div className='exo-regular p-4 mx-4'>
         <Header />
         <div className='md:flex'>
-          <Blogs handleAddToBookmark={handleAddToBookmark} isBookmarked={isBookmarked} />
+          <Blogs handleAddToBookmark={handleAddToBookmark} />
           <Bookmarks bookmarks={bookmarks} />
         </div>
       </div>
