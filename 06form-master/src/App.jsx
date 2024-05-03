@@ -26,7 +26,8 @@ function App() {
       <ReusableForm
         formTitle={'Sign up'}
         handleSubmit={handleSignUpSubmit}>
-        <div className='text-3xl font-semibold my-4'>
+        <div>
+          <h1 className='text-3xl font-semibold my-4'>Sign Up</h1>
           <h3>Please Sign Up Now!</h3>
         </div>
       </ReusableForm>
@@ -34,7 +35,8 @@ function App() {
         formTitle={'Update Profile'}
         handleSubmit={handleUpdateProfile}
         submitBtnText={'Update'}>
-        <div className='text-3xl font-semibold my-4'>
+        <div>
+          <h1 className='text-3xl font-semibold my-4'>Update Profile</h1>
           <i>Always keep your profile updated</i>
         </div>
       </ReusableForm>
